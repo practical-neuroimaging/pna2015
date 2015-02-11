@@ -1,0 +1,5 @@
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python compiled and others
+*.py[cod]
