@@ -8,7 +8,8 @@ license (CC-by 2.0): see http://creativecommons.org/licenses/by/2.0/
 
 The data in ``camera.txt`` comes from reading the file ``camera.png`` in the
 scikit-image ``data`` directory, and writing the read values out to a text
-file.
+file.  I could not find a copyright statement or license for it, but many
+image-processing packages use it, and it appears to be in the public domain.
 
 The data from the anatomical image stored in ``anatomical.txt`` is from the
 OpenFMRI project, dataset ``ds114``: https://openfmri.org/dataset/ds000114 . It
