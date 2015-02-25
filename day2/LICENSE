@@ -1,0 +1,22 @@
+###################################
+LICENSE for files in day1 directory
+###################################
+
+The notebooks ``camera.ipynb, anatomical.ipynb, arteries.ipynb`` are copyright
+Matthew Brett 2015, licensed under the Creative Commons attribution 2.0 generic
+license (CC-by 2.0): see http://creativecommons.org/licenses/by/2.0/
+
+The data in ``camera.txt`` comes from reading the file ``camera.png`` in the
+scikit-image ``data`` directory, and writing the read values out to a text
+file.
+
+The data from the anatomical image stored in ``anatomical.txt`` is from the
+OpenFMRI project, dataset ``ds114``: https://openfmri.org/dataset/ds000114 . It
+is version of ``sub009/anatomy/highres001.nii.gz`` from which I (MB) have
+loaded the data and written the data to a text file.  The dataset is covered by
+a Public Domain Dedication and License version 1.0 :
+http://opendatacommons.org/licenses/pddl/1.0/
+
+The data for the anatomical image `ds107_sub001_highres.nii` is an unzipped
+version of ``sub001/anatomy/highres001.nii.gz`` from OpenFMRI dataset ``ds107``
+https://openfmri.org/dataset/ds000107, also covered under the PDDL 1.0 license.
