@@ -9,6 +9,8 @@ filename.
 """
 import io
 
+from os.path import basename, splitext
+
 from argparse import ArgumentParser, RawDescriptionHelpFormatter
 
 from IPython.nbformat import current
@@ -42,8 +44,10 @@ def main():
     parser.add_argument('out_fname', type=str,
                         help='output notebook filename')
     args = parser.parse_args()
+    out_name = splitext(basename(args.out_fname))[0]
     with io.open(args.in_fname, 'r') as f:
         nb = current.read(f, 'json')
+    nb.name = out_name
     for cell in cellgen(nb, 'code'):
         if hasattr(cell, 'prompt_number'):
             del cell['prompt_number']
