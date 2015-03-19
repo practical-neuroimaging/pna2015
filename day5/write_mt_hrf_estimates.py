@@ -31,4 +31,4 @@ FIR = E.FIR
 times = FIR.time / float(ts.time_unit_conversion['s'])
 mt_fir = FIR.data.mean(axis=0)
 
-np.savetxt('mt_fir.txt', mt_fir)
+np.savetxt('mt_hrf_estimates.txt', mt_fir)

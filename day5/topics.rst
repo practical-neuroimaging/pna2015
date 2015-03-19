@@ -3,7 +3,7 @@ Step in range
 Label on plots
 Operators in place
 Slicing out a time series
-Correlation
+Correlation, corrcoef, correlate
 Tail on the convolution
-PDFs from scipy
-Little scipy intro
+PDFs from scipy, shape, location, scale
+Little scipy intro?
