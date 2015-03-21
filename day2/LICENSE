@@ -13,7 +13,7 @@ image-processing packages use it, and it appears to be in the public domain.
 
 The data from the anatomical image stored in ``anatomical.txt`` is from the
 OpenFMRI project, dataset ``ds114``: https://openfmri.org/dataset/ds000114 . It
-is version of ``sub009/anatomy/highres001.nii.gz`` from which I (MB) have
+is a version of ``sub009/anatomy/highres001.nii.gz`` from which I (MB) have
 loaded the data and written the data to a text file.  The dataset is covered by
 a Public Domain Dedication and License version 1.0 :
 http://opendatacommons.org/licenses/pddl/1.0/
