@@ -1,0 +1,36 @@
+###################################
+LICENSE for files in day5 directory
+###################################
+
+These files:
+
+* day5_introduction.ipynb
+* day5_introduction_full.ipynb
+* hrf_convolution.ipynb
+* hrf_convolution_solutions.ipynb
+* more_correlation.ipynb
+* pearson.py
+* pearson_solution.py
+* test_pearson_1d.py
+* test_pearson_2d.py
+* write_mt_hrf_estimates.py
+
+are copyright Matthew Brett 2015, licensed under the Creative Commons
+attribution 2.0 generic license (CC-by 2.0): see
+http://creativecommons.org/licenses/by/2.0/
+
+The file ``my_hrf_estimates.txt`` is the output of the script
+``write_mt_hrf_estimates.py``, and so derives from the `nitime
+<http://nipy.org/nitime>`_ file ``nitime/data/event_related_fmri.csv``
+licensed, with ntime, under the 3-clause BSD license.
+
+The BOLD data ``ds114_sub009_t2r1.nii`` comes from the OpenFMRI project dataset
+``ds114``: https://openfmri.org/dataset/ds000114 . It is a decompressed and
+renamed copy of ``sub009/BOLD/task002_run001/bold.nii.gz``.
+
+The stimulus text file ``ds114_sub009_t2r1_cond.txt`` comes from ``ds114``
+also.  It is a renamed copy of
+``sub009/model/model001/onsets/task002_run001/cond001.txt``.
+
+The files from the ``ds114`` dataset are covered by a Public Domain Dedication
+and License version 1.0 : http://opendatacommons.org/licenses/pddl/1.0/

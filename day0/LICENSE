@@ -7,7 +7,7 @@ under the Creative Commons attribution 2.0 generic license (CC-by 2.0): see
 http://creativecommons.org/licenses/by/2.0/
 
 The image ``highres001.nii`` is from the OpenFMRI project, dataset ``ds114``:
-https://openfmri.org/dataset/ds000114 . It is an unzipped version of
+https://openfmri.org/dataset/ds000114 . It is an uncompressed copy of
 ``sub009/anatomy/highres001.nii.gz``.  The dataset is covered by a Public
 Domain Dedication and License version 1.0 :
 http://opendatacommons.org/licenses/pddl/1.0/

@@ -1,5 +1,5 @@
 ###################################
-LICENSE for files in day1 directory
+LICENSE for files in day2 directory
 ###################################
 
 The notebooks ``camera.ipynb, anatomical.ipynb, arteries.ipynb`` are copyright
@@ -18,6 +18,6 @@ loaded the data and written the data to a text file.  The dataset is covered by
 a Public Domain Dedication and License version 1.0 :
 http://opendatacommons.org/licenses/pddl/1.0/
 
-The data for the anatomical image `ds107_sub001_highres.nii` is an unzipped
-version of ``sub001/anatomy/highres001.nii.gz`` from OpenFMRI dataset ``ds107``
+The data for the anatomical image `ds107_sub001_highres.nii` is an uncompressed
+copy of ``sub001/anatomy/highres001.nii.gz`` from OpenFMRI dataset ``ds107``
 https://openfmri.org/dataset/ds000107, also covered under the PDDL 1.0 license.
