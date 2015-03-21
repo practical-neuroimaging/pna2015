@@ -2,8 +2,13 @@
 LICENSE for files in day0 directory
 ###################################
 
-The notebook ``what_is_an_image.ipynb`` is copyright Matthew Brett 2015, licensed
-under the Creative Commons attribution 2.0 generic license (CC-by 2.0): see
+The notebooks:
+
+* what_is_an_image.ipynb
+* what_is_an_image_solutions.ipynb
+
+are copyright Matthew Brett 2015, licensed under the Creative Commons
+attribution 2.0 generic license (CC-by 2.0): see
 http://creativecommons.org/licenses/by/2.0/
 
 The image ``highres001.nii`` is from the OpenFMRI project, dataset ``ds114``:
