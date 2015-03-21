@@ -2,9 +2,20 @@
 LICENSE for files in day2 directory
 ###################################
 
-The notebooks ``camera.ipynb, anatomical.ipynb, arteries.ipynb`` are copyright
-Matthew Brett 2015, licensed under the Creative Commons attribution 2.0 generic
-license (CC-by 2.0): see http://creativecommons.org/licenses/by/2.0/
+The files:
+
+* anatomical.ipynb
+* anatomical_solutions.ipynb
+* arteries.ipynb
+* arteries_solutions.ipynb
+* camera.ipynb
+* camera_solutions.ipynb
+* day2_introduction.ipynb
+* day2_introduction_full.ipynb
+
+are copyright Matthew Brett 2015, licensed under the Creative Commons
+attribution 2.0 generic license (CC-by 2.0): see
+http://creativecommons.org/licenses/by/2.0/
 
 The data in ``camera.txt`` comes from reading the file ``camera.png`` in the
 scikit-image ``data`` directory, and writing the read values out to a text
