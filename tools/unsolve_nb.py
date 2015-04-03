@@ -31,6 +31,8 @@ def strip_after_comments(code_input):
     for line in code_input.splitlines():
         if not line.startswith('#'):
             break
+        if line.startswith('#: '):
+            break
         out_lines.append(line)
     return '\n'.join(out_lines)
 
