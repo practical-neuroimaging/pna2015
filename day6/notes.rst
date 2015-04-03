@@ -17,3 +17,7 @@ On Yosemite::
 Emacs::
 
     git config --global core.editor emacs
+
+
+This might be the solution for Notepad++ and Windows:
+http://stackoverflow.com/questions/10564/how-can-i-set-up-an-editor-to-work-with-git-on-windows
