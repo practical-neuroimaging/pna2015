@@ -1,0 +1,35 @@
+###################################
+LICENSE for files in day3 directory
+###################################
+
+These files:
+
+day3_introduction.ipynb
+day3_introduction_full.ipynb
+four_dimensions.ipynb
+four_dimensions_solutions.ipynb
+get_global_signals.m
+global_signals.txt
+my_script.py
+mymodule.py
+on_modules.ipynb
+on_modules_full.ipynb
+spm_funcs.py
+spm_funcs_solution.py
+test_spm_funcs.py
+
+are copyright Matthew Brett 2015, licensed under the Creative Commons
+attribution 2.0 generic license (CC-by 2.0): see
+http://creativecommons.org/licenses/by/2.0/
+
+The BOLD data ``ds107_sub012_t1r2.nii`` comes from the OpenFMRI project dataset
+``ds107``: https://openfmri.org/dataset/ds000107 . It is a decompressed and
+renamed copy of ``sub012/BOLD/task001_run002/bold.nii.gz``.
+
+The BOLD data ``ds114_sub009_t2r1.nii`` comes from the OpenFMRI project dataset
+``ds114``: https://openfmri.org/dataset/ds000114 . It is a decompressed and
+renamed copy of ``sub009/BOLD/task002_run001/bold.nii.gz``.
+
+The files from the ``ds107`` and ``ds114`` datasets are covered by a Public
+Domain Dedication and License version 1.0 :
+http://opendatacommons.org/licenses/pddl/1.0/
