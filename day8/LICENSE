@@ -1,10 +1,12 @@
 ###################################
-LICENSE for files in day7 directory
+LICENSE for files in day8 directory
 ###################################
 
 These files:
 
 * day8_introduction.ipynb
+* dots_demeaned.ipynb
+* image_pca_example.ipynb
 * pca.ipynb
 * pca_solutions.ipynb
 * slice_timing.ipynb
@@ -14,9 +16,14 @@ are copyright Matthew Brett 2015, licensed under the Creative Commons
 attribution 2.0 generic license (CC-by 2.0): see
 http://creativecommons.org/licenses/by/2.0/
 
+The BOLD data ``ds107_sub012_t1r2.nii`` comes from the OpenFMRI project dataset
+``ds107``: https://openfmri.org/dataset/ds000107 . It is a decompressed and
+renamed copy of ``sub012/BOLD/task001_run002/bold.nii.gz``.
+
 The BOLD data ``ds114_sub009_t2r1.nii`` comes from the OpenFMRI project dataset
 ``ds114``: https://openfmri.org/dataset/ds000114 . It is a decompressed and
 renamed copy of ``sub009/BOLD/task002_run001/bold.nii.gz``.
 
-The files from the ``ds114`` dataset are covered by a Public Domain Dedication
-and License version 1.0 : http://opendatacommons.org/licenses/pddl/1.0/
+The files from the ``ds107`` and ``ds114`` datasets are covered by a Public
+Domain Dedication and License version 1.0 :
+http://opendatacommons.org/licenses/pddl/1.0/
