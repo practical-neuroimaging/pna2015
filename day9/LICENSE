@@ -41,6 +41,5 @@ These files:
 * secret_rotated_volume.nii
 
 are modified versions of the first volume in ``ds107_sub012_t1r2.nii`` BOLD
-data file, with modifications described in 'make_rotated.py'.  These are also
+data file, with modifications described in 'make_rotated.py'.  They are also
 covered by the PDDL as for the 'ds107' dataset.
-
