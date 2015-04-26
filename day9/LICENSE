@@ -1,0 +1,46 @@
+###################################
+LICENSE for files in day9 directory
+###################################
+
+These files:
+
+day9_introduction.ipynb
+functions_are_objects.ipynb
+global_scope.ipynb
+images/trig_addition.png
+images/win_adv_sys_settings.png
+images/win_cmd_echo.png
+images/win_computer_properties.png
+images/win_env_vars.png
+images/win_pythonpath.png
+make_rotated.py
+moreon_rotation.ipynb
+moreon_rotation_solutions.ipynb
+optimizing_rotation.ipynb
+optimizing_rotation_solutions.ipynb
+optimizing_space.ipynb
+using_pythonpath.ipynb
+
+are copyright Matthew Brett 2015, licensed under the Creative Commons
+attribution 2.0 generic license (CC-by 2.0): see
+http://creativecommons.org/licenses/by/2.0/
+
+The file 'rotation.py' is copyright Stéfan van def Walt, licensed under the
+2-clause BSD license.
+
+The BOLD data ``ds107_sub012_t1r2.nii`` comes from the OpenFMRI project dataset
+``ds107``: https://openfmri.org/dataset/ds000107 . It is a decompressed and
+renamed copy of ``sub012/BOLD/task001_run002/bold.nii.gz``.
+
+The files from the ``ds107`` dataset are covered by a Public Domain Dedication
+and License version 1.0 : http://opendatacommons.org/licenses/pddl/1.0/
+
+These files:
+
+* rotated_volume.nii
+* secret_rotated_volume.nii
+
+are modified versions of the first volume in ``ds107_sub012_t1r2.nii`` BOLD
+data file, with modifications described in 'make_rotated.py'.  These are also
+covered by the PDDL as for the 'ds107' dataset.
+
