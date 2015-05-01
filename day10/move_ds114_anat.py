@@ -12,6 +12,7 @@ moving = nib.affines.from_matvec(rot, trans)
 affine = moving.dot(hdr.get_best_affine())
 hdr.set_sform(affine)
 hdr.set_qform(affine)
+hdr['magic'] = b'ni1'
 
 with open('ds114_sub009_highres_moved.hdr', 'wb') as fobj:
     hdr.write_to(fobj)
