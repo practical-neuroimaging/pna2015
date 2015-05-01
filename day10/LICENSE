@@ -5,6 +5,7 @@ LICENSE for files in day10 directory
 These files:
 
 * day10_introduction.ipynb
+* mutual_information_example.ipynb
 * reslicing_with_affines.ipynb
 * reslicing_with_affines_solutions.ipynb
 * what_extra_transform.ipynb
