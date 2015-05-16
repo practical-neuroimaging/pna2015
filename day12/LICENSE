@@ -1,0 +1,42 @@
+####################################
+LICENSE for files in day12 directory
+####################################
+
+These files:
+
+* day12_introduction.ipynb
+* introducing_nipype.ipynb
+* saving_images.ipynb
+* saving_images_solutions.ipynb
+* smoothing.ipynb
+* smoothing_solutions.ipynb
+* spm_slice_timing.ipynb
+* spm_slice_timing_solutions.ipynb
+
+are copyright Matthew Brett 2015, licensed under the Creative Commons
+attribution 2.0 generic license (CC-by 2.0): see
+http://creativecommons.org/licenses/by/2.0/
+
+The files:
+
+* ds114_sub009_highres.nii
+* ds114_sub009_t2r1.nii
+
+are from the ``ds114`` dataset in the OpenFMRI project:
+
+* https://openfmri.org/dataset/ds000114
+
+These OpenFMRI files are covered by a Public Domain Dedication and License
+version 1.0 : http://opendatacommons.org/licenses/pddl/1.0/.  They have the
+following provenance:
+
+* ds114_sub009_highres.nii : uncompressed version of
+  `sub009/anatomy/highres001.nii.gz` from ds114;
+* ds114_sub009_t2r1.nii : uncompressed version of
+  ``sub009/BOLD/task002_run001/bold.nii.gz`` from ds114;
+
+The code file:
+
+* nipype_continues.py
+
+is copyright Matthew Brett, released into the public domain.
