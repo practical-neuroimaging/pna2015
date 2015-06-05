@@ -7,3 +7,5 @@ pyscript*.m
 rp_*.txt
 rds*nii
 wds*nii
+t_*.nii
+con_*.nii
