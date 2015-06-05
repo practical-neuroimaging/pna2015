@@ -1,0 +1,77 @@
+####################################
+LICENSE for files in day10 directory
+####################################
+
+These files:
+
+* day10_introduction.ipynb
+* mutual_information_example.ipynb
+* reslicing_with_affines.ipynb
+* reslicing_with_affines_solutions.ipynb
+* what_extra_transform.ipynb
+* what_extra_transform_solutions.ipynb
+
+are copyright Matthew Brett 2015, licensed under the Creative Commons
+attribution 2.0 generic license (CC-by 2.0): see
+http://creativecommons.org/licenses/by/2.0/
+
+The files:
+
+* ds107_sub012_highres.nii
+* ds107_sub012_t1r2.nii
+* ds114_sub009_highres.nii
+* ds114_sub009_t2r1.nii
+* ds114_sub009_highres_moved.hdr
+* ds114_sub009_highres_moved.img
+
+are from the ``ds107`` and ``ds114`` datasets in the OpenFMRI project:
+
+* https://openfmri.org/dataset/ds000107
+* https://openfmri.org/dataset/ds000114
+
+These OpenFMRI files are covered by a Public Domain Dedication and License
+version 1.0 : http://opendatacommons.org/licenses/pddl/1.0/.  They have the
+following provenance:
+
+* ds107_sub012_highres.nii : uncompressed version of
+  `sub012/anatomy/highres001.nii.gz` from ds107;
+* ds107_sub012_t1r2.nii : uncompressed version of
+  ``sub012/BOLD/task001_run002/bold.nii.gz`` from ds107;
+* ds114_sub009_highres.nii : uncompressed version of
+  `sub009/anatomy/highres001.nii.gz` from ds114;
+* ds114_sub009_t2r1.nii : uncompressed version of
+  ``sub009/BOLD/task002_run001/bold.nii.gz`` from ds114;
+* ds114_sub009_highres_moved.hdr : header from ds114_sub009_highres.nii file
+  with tranformations applied from `move_ds114_anat.py`;
+* ds114_sub009_highres_moved.img : copy of ds114_sub009_t2r1.nii
+
+The code files:
+
+* move_ds114_anat.py
+* spm/do_coreg.m
+* do_realign_reslice.m
+
+are copyright Matthew Brett, released into the public domain.
+
+These files:
+
+* mni_icbm152_t1_tal_nlin_asym_09a.nii
+* mni_icbm152_t2_tal_nlin_asym_09a.nii
+
+are from the MNI non-linear templates archive
+'mni_icbm152_t1_tal_nlin_asym_09a' last found at
+http://www.bic.mni.mcgill.ca/~vfonov/icbm/2009/mni_icbm152_nlin_asym_09a_nifti.zip.
+The original image has the following license (where 'softwware' refers to the
+image):
+
+    Copyright (C) 1993-2004 Louis Collins, McConnell Brain Imaging Centre,
+    Montreal Neurological Institute, McGill University.
+
+    Permission to use, copy, modify, and distribute this software and its
+    documentation for any purpose and without fee is hereby granted, provided
+    that the above copyright notice appear in all copies.  The authors and
+    McGill University make no representations about the suitability of this
+    software for any purpose.  It is provided "as is" without express or
+    implied warranty.  The authors are not responsible for any data loss,
+    equipment damage, property loss, or injury to subjects or patients
+    resulting from the use or misuse of this software package.

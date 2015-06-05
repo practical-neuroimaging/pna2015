@@ -4,6 +4,7 @@ LICENSE for files in day6 directory
 
 These files:
 
+* day6_introduction.ipynb
 * regression.ipynb
 * regression_solutions.ipynb
 * working_with_utilities.ipynb
@@ -12,9 +13,9 @@ are copyright Matthew Brett 2015, licensed under the Creative Commons
 attribution 2.0 generic license (CC-by 2.0): see
 http://creativecommons.org/licenses/by/2.0/
 
-The BOLD data ``ds114_sub009_t2r1.nii`` comes from the OpenFMRI project dataset
-``ds114``: https://openfmri.org/dataset/ds000114 . It is a decompressed and
-renamed copy of ``sub009/BOLD/task002_run001/bold.nii.gz``.
+The processed BOLD data ``ds114_sub009_t2r1.nii`` comes from the OpenFMRI
+project dataset ``ds114``: https://openfmri.org/dataset/ds000114 . It is a
+decompressed and renamed copy of ``sub009/BOLD/task002_run001/bold.nii.gz``.
 
 The stimulus text file ``ds114_sub009_t2r1_cond.txt`` comes from ``ds114``
 also.  It is a renamed copy of

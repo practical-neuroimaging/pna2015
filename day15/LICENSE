@@ -1,0 +1,45 @@
+####################################
+LICENSE for files in day15 directory
+####################################
+
+These files:
+
+* day15_introduction.ipynb
+* multivoxel.ipynb
+* multivoxel_solutions.ipynb
+
+are copyright Matthew Brett 2015, licensed under the Creative Commons
+attribution 2.0 generic license (CC-by 2.0): see
+http://creativecommons.org/licenses/by/2.0/
+
+The files:
+
+* ds114_sub009_highres.nii
+* ds114_sub009_t2r1.nii
+* ds114_sub009_t2r1_cond.txt
+
+are from the ``ds114`` dataset in the OpenFMRI project:
+
+* https://openfmri.org/dataset/ds000114
+
+These OpenFMRI files are covered by a Public Domain Dedication and License
+version 1.0 : http://opendatacommons.org/licenses/pddl/1.0/.  They have the
+following provenance:
+
+* ds114_sub009_highres.nii : uncompressed version of
+  `sub009/anatomy/highres001.nii.gz` from ds114;
+* ds114_sub009_t2r1.nii : uncompressed version of
+  ``sub009/BOLD/task002_run001/bold.nii.gz`` from ds114;
+* ds114_sub009_t2r1_cond.txt is a renamed copy of
+  ``sub009/model/model001/onsets/task002_run001/cond001.txt``.
+
+The file ``wafds114_sub009_t2r1.nii`` is a processed version of
+``ds114_sub009_t2r1.nii`` - see the file ``nipype_ds114_sub009_t2r1.py`` for
+the details of the processing.  We release this image under the PDDL 1.0 as
+for the original data.
+
+The code file:
+
+* nipype_ds114_sub009_t2r1.py
+
+is copyright Matthew Brett, released into the public domain.
