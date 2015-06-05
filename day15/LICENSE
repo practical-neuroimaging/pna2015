@@ -35,11 +35,14 @@ following provenance:
 
 The file ``wafds114_sub009_t2r1.nii`` is a processed version of
 ``ds114_sub009_t2r1.nii`` - see the file ``nipype_ds114_sub009_t2r1.py`` for
-the details of the processing.  We release this image under the PDDL 1.0 as
-for the original data.
+the details of the processing.  ``all_con_task2.nii`` is the collection of
+single subject contrast images for all 10 subjects in dataset ds114 - see
+``nipype_t2r1.py`` for details.  We release these processed images under the
+PDDL 1.0 as for the original data.
 
-The code file:
+The code files:
 
 * nipype_ds114_sub009_t2r1.py
+* nipype_t2r1.py
 
-is copyright Matthew Brett, released into the public domain.
+are copyright Matthew Brett, released into the public domain.
