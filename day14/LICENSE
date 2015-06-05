@@ -1,0 +1,32 @@
+####################################
+LICENSE for files in day14 directory
+####################################
+
+These files:
+
+* introduction_day_14.ipynb
+* fixed_and_random_FX_exercises.ipynb
+* fixed_and_random_FX.ipynb
+* fixed_and_random_FX_exercises_ipy3.ipynb
+* fixed_and_random_FX_ipy3.ipynb
+
+are copyright JB Poline 2015, licensed under the Creative Commons attribution
+2.0 generic license (CC-by 2.0): see
+http://creativecommons.org/licenses/by/2.0/
+
+The file:
+
+* ds114_sub009_t2r1.nii
+
+is from the ``ds114`` dataset in the OpenFMRI project:
+
+* https://openfmri.org/dataset/ds000114
+
+These OpenFMRI files are covered by a Public Domain Dedication and License
+version 1.0 : http://opendatacommons.org/licenses/pddl/1.0/.  They have the
+following provenance:
+
+* ds114_sub009_t2r1.nii : uncompressed version of
+  ``sub009/BOLD/task002_run001/bold.nii.gz`` from ds114;
+
+
